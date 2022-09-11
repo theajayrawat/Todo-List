@@ -1,0 +1,41 @@
+body{
+  background: #352f5b;
+}
+.container{
+  max-width: 400px;
+}
+input[type=text],
+input[type=text]:focus{
+  color: #fff;
+  border: none;
+  background: rgba(0,0,0,0.2);
+  max-width: 400px;
+}
+.todos li{
+  background: #423a6f;
+}
+.delete{
+  cursor: pointer;
+}
+.floating-text {
+  background-color: #001F61;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+  font-family: 'Muli';
+  padding: 7px 15px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 998;
+}
+
+.floating-text a{
+  color: #FF7500;
+  text-decoration: none;
+}
+
+.filtered{
+    display: none !important;
+}
